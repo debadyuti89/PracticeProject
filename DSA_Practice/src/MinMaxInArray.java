@@ -40,9 +40,7 @@ public class MinMaxInArray {
     {
         int[] A = { 4, 9, 6, 5, 2, 3 };
         int N = A.length;
-        System.out.println("Minimum element is: "
-                + setMinimum(A, N));
-        System.out.println("Maximum element is: "
-                + setMaximum(A, N));
+        System.out.println("Minimum element is: " + setMinimum(A, N));
+        System.out.println("Maximum element is: " + setMaximum(A, N));
     }
 }
