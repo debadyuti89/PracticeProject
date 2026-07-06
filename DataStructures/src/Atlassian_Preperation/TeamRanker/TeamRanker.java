@@ -1,4 +1,4 @@
-package TeamRanker;
+package Atlassian_Preperation.TeamRanker;
 
 import java.util.HashMap;
 import java.util.Map;
