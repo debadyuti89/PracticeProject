@@ -65,8 +65,8 @@ public class EmployeeMain {
 		
 		System.out.println("print highest salary of an employee from each department "+ topEmployees);
 		
-		Map<String, Double> topSalWithDep = EmployeeDAO.getAll().parallelStream()
-				.collect(Collectors.groupingBy(Employee::getDepartment, Collectors.collectingAndThen(Employee::getSalary)));
+//		Map<String, Double> topSalWithDep = EmployeeDAO.getAll().parallelStream()
+//				.collect(Collectors.groupingBy(Employee::getDepartment, Collectors.collectingAndThen(Employee::getSalary)));
 		
 		//getEmployeeByName("Kallol");
 		
